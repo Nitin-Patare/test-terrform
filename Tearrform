@@ -1,0 +1,6 @@
+
+provider "google" {
+  credentials = file("terraform-key.json")
+  project     = "YOUR_PROJECT_ID"
+  region      = "us-central1"  # Set your desired region
+}
